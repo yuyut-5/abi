@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8/>
+<meta name="viewport"content="width=device-width,initial-scale=1.0"/>
+<header style="background: linear-gradient(to right,#d7756f,#db7e90); color:black; padding:35px; text-align: center;">
+<font color="black" size="6"> HOTEL BUENA VISTA
+<p>Tu escape perfecto al descanso</p>
+</header>
+<section style="padding:1px; background-color: #d78f6f; text-align: center;">
+<font color="black" size="5"> SOMOS NOSOTROS
+<p>Somos un hotel boutique frente al mar, enfocados en brindar confort y experiencias inolvidables.</p>
+</section> 
+</h1>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<header>
+<nav>
+<a href="#precios">precios</a>
+<a href="#reservaciones">Reservaciones</a>
+</nav>
+</header>
+<section id="precios">
+<h2>Habitaciones y Precios</h2>
+<div class="Habitacion">
+<img src="img habitacion1.jpg" width="270"alt="Habitacion estandar">
+<h3>Habitacion estandar</h3>
+<p>$250 por noche</p>
+</div>
+<div class="habitacion">
+<img src="habitacion2.jpg" width="270" alt="Habitacion Doble">
+<h3>habitacion doble</h3>
+<p>$350 por noche</p>
+</div>
+<div class="habitacion">
+<img src="suite.jpg" width="270" alt="Suite Lujo">
+<h3>Suite Lujo</h3>
+<p>$550 por noche</p>
+</div>
+</section>
+<section id="galeria">
+<h2>Galeria del Hotel</h2>
+<div class="galeria">
+<img src="hotel1.jpg" width="300" alt="Vista exterior del Hotel">
+<img src="habitacion1.jpg" width="300" alt="Habitacion Estandar">
+<img src="piscina.jpg" width="300" alt="Piscina del Hotel">
+<img src="restaurante.jpg" width="300" alt="Restaurante del Hotel">
+</div>
+</section>
+<section id="reservacion">
+<h2>Hacer una reservacion</h2>
+<form id="formularioReserva">
+<label>Nombre completo:
+<input type="text" name="nombre" required />
+</label>
+<label>Correo electrónico:
+<input type="email" name="email" required />
+</label>
+<label>Tipo de habitación:
+<select name="habitacion">
+<option value="estandar">Estándar</option>
+<option value="doble">Doble</option>
+<option value="suite">Suite</option>
+</select>
+</label>
+<label>Fecha de entrada:
+<input type="date" name="entrada" required />
+</label>
+<label>Fecha de salida:
+<input type="date" name="salida" required />
+</label>
+<button type="submit">Reservar</button>
+</form>
+<div id="confirmacion"></div>
+</section>
+<footer>
+<p>&copy; 2025 Hotel Buena Vista</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
+<footer style="background-color: #222; color: white; text-align: center; padding: 20px;">
+<p>Contáctanos: +4426002162 | info@hotelbuenavista.com</p>
+<p>&copy; 2025 Hotel Buena Vista. Todos los derechos reservados.</p>
+</footer>
+<nav style="background-color: #003366; padding: 15px;">
+<ul style="list-style: none; display: flex; justify-content: center; gap: 20px; margin: 0; padding: 0;">
+<li><a href="#inicio" style="color: white; text-decoration: none;">Inicio</a></li>
+<li><a href="#habitaciones" style="color: white; text-decoration: none;">Habitaciones</a></li>
+<li><a href="#servicios" style="color: white; text-decoration: none;">Servicios</a></li>
+<li><a href="#contacto" style="color: white; text-decoration: none;">Contacto</a></li>
+</ul>
+</nav>
